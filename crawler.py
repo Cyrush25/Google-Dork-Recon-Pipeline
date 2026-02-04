@@ -80,8 +80,8 @@ def normalize(url):
 
 
 def same_domain(u1, u2):
-    d1 = tldextract.extract(u1).registered_domain
-    d2 = tldextract.extract(u2).registered_domain
+    d1 = tldextract.extract(u1).top_domain_under_public_suffix
+    d2 = tldextract.extract(u2).top_domain_under_public_suffix
     return d1 == d2
 
 
