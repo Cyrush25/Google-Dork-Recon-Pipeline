@@ -95,7 +95,7 @@ echo $SERPAPI_KEY
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/google-dork-recon.git
+git clone https://github.com/Cyrush25/Google-Dork-Recon-Pipeline.git
 cd google-dork-recon
 ```
 
